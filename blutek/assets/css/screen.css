@@ -342,7 +342,7 @@ pre {
     width: 100%;
     padding: 10px;
     font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
     white-space: pre;
     overflow: auto;
     background: #F7FAFB;
@@ -880,8 +880,9 @@ body:not(.post-template) .post-title {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
-    padding: 0.6em 0;
+    margin: 3px auto;
+    padding: 3px;
+    border: 1px solid #dedede;
 }
 
 /* Break out larger images to be wider than the main text column
